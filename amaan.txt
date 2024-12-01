@@ -1,0 +1,38 @@
+amaanahmad52/GITHUBLEARNgit config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+
+git init -> initialize an empty git repository
+
+git status -> red one shows uncommitted files, staged files  will look green
+
+git add . -> adds all untracked or uncommitted files in the staging area , these staged files need to be committed
+
+git commit -m "message daal do kuch yha" -> committed finally
+COMMIT is like taking a snapshot of our work in git repository
+
+cat "file name" shows all content of the file inside the terminal
+
+git restore --staged "filename" -> to unstage the file
+
+git log -> will show all the commit history
+
+git rm -rf "filename" will delete the file
+
+to get back the file state :
+	example you did commit 1 then commit 2 then commit 3 then commit 4 . now u want that commit 3 and commit 4 go. you want file to be at state of commit 2..  to do that just copy the commit 2 id and type: 
+
+git reset commit 2 id 
+
+git stash -> to work in backstage without commiting
+git stash clean -> backstage work ko delete krne ke leye
+git stash pop -> to take that backstage work on main stage so as to commit it now
+
+BRANCHING:
+git branch "new branch"
+git checkout new branch -> ye likhne ke baad hi new branch pe switch hoge
+
+git merge new branch -> to merge in master
+
+git clone "url" will download the repository
+
+we cant make any change in the uploaded GitHub repository of others. to make changes first of all fork it to you account and then you allowed to make changes on that forked repository
