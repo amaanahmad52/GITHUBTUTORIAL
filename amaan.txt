@@ -36,3 +36,17 @@ git merge new branch -> to merge in master
 git clone "url" will download the repository
 
 we cant make any change in the uploaded GitHub repository of others. to make changes first of all fork it to you account and then you allowed to make changes on that forked repository
+
+
+
+
+
+
+FROM JAVASCRIPT MASTERY VIDEO ......................
+# To update(sync) local repo with remote one use -> "git pull"
+  . git pulls changes from the same branch that you are currently on. 
+
+# The place from where u made a new branch, that branch will have all code base from the main. and now u can add more features to it explicitly
+
+# To push and allow to track a newly made branch in local to remote, use-> "git push --set-upstream origin feature-branch" OR "git push -u origin feature-branch"
+  . Now to push things from the new branch to the remote branch.  A simple git push will work to update changes in that branch at remote (GITHUB)
